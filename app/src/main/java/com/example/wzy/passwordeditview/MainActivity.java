@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         InputMethodManager imm = (InputMethodManager) getSystemService(
                 Context.INPUT_METHOD_SERVICE);
         imm.showSoftInput(mPasswordInputView, InputMethodManager.SHOW_IMPLICIT);
-
+        // set listener to check if the input is full
         mPasswordInputView.setTextFullListener(new PasswordInputView.TextFullListener() {
             @Override
             public void textFull() {
