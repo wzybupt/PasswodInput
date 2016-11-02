@@ -20,7 +20,6 @@ import android.widget.LinearLayout;
  * Created by wzy on 16/11/2.
  */
 public class PasswordInputView extends LinearLayout implements View.OnClickListener {
-    private static final int INPUT_SHOW_DELAY = 200;
     private int[] editId = new int[]{R.id.pin_edit_1, R.id.pin_edit_2, R.id.pin_edit_3, R.id.pin_edit_4};
     private final int COUNT = editId.length;
     private PasswordEditText[] mPinEditTexts = new PasswordEditText[COUNT];
